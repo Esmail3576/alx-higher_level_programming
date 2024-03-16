@@ -23,7 +23,7 @@ class Square:
         except TypeError:
             raise TypeError("size must be an integer")
         try:
-            if self.__size < 0:
+            if self.__size > 0:
                 pass
         except ValueError:
             raise ValueError("size must be >= 0")
