@@ -2,6 +2,6 @@
 """Docstring for Square"""
 class Square:
     """define a square class"""
-    def __init__(self, side):
+    def __init__(self):
         """Initialize a square object"""
-        self.__side = side
+        pass
