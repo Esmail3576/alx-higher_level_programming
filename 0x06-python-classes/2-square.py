@@ -18,12 +18,14 @@ class Square:
         """Initialize with private instance attribute size"""
         self.__size = size
         try:
+            raise TypeError("size must be an integer")
             if self.__size is int:
                 pass
-        except TypeError:
-            raise TypeError("size must be an integer")
+        except TypeError as tp:
+            print(tp)
         try:
+            raise ValueError("size must be >= 0")
             if self.__size > 0:
                 pass
-        except ValueError:
-            raise ValueError("size must be >= 0")
+        except ValueError as ve:
+            print(ve)
