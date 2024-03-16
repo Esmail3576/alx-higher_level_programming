@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 class Square:
-    """docstring for Square"""
+    """Docstring for Square"""
     def __init__(self, side):
-        """init function"""
+        """Initialize a square object"""
         self.__side = side
