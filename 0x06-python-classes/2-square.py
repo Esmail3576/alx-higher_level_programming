@@ -23,4 +23,4 @@ class Square:
             elif self.__size < 0:
                 raise ValueError("size must be >= 0")
         except Exception as e:
-            raise(e)
+            raise (e)
