@@ -6,8 +6,10 @@ for arg in sys.argv:
     if number == 0:
         if len(sys.argv) > 2:
             print("{} arguments:".format(len(sys.argv) - 1))
-        else:
+        elif len(sys.argv) == 2:
             print("1 argument:")
+        else:
+            print("0 arguments.")
     elif number > 1:
         print("{}: {}".format(number, arg))
     else:
