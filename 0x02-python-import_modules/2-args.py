@@ -3,5 +3,8 @@ if __name__ == "__main__":
     import sys
 number = 0
 for arg in sys.argv:
-    print("{}: {}".format(number, arg))
+    if number == 0:
+        pass
+    else:
+        print("{}: {}".format(number, arg))
     number += 1
